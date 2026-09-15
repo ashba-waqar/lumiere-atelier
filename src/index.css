@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-charcoal: #FAF7F2;
+    --color-charcoal-light: #F3EFE6;
+    --color-beige: #1C1917;
+    --color-gold: #A37B34;
+    --color-gold-light: #C5A059;
+    --color-gold-dark: #785A1D;
+  }
+
+  body {
+    background-color: var(--color-charcoal);
+    color: var(--color-beige);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Custom Utilities for Light & Classy Modern Aesthetic */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(212, 196, 174, 0.5);
+  box-shadow: 0 10px 30px -10px rgba(44, 34, 20, 0.05);
+}
+
+.glass-panel-gold {
+  background: rgba(253, 248, 237, 0.9);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(163, 123, 52, 0.3);
+  box-shadow: 0 12px 32px -10px rgba(163, 123, 52, 0.12);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(220, 208, 192, 0.55);
+  box-shadow: 0 6px 24px -4px rgba(44, 34, 20, 0.04);
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.98);
+  border-color: rgba(163, 123, 52, 0.45);
+  box-shadow: 0 20px 40px -12px rgba(163, 123, 52, 0.16), 0 0 0 1px rgba(163, 123, 52, 0.12);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #785A1D 0%, #A37B34 50%, #C5A059 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.silver-gradient-text {
+  background: linear-gradient(135deg, #1C1917 0%, #44403C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Luxury Light Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F3EFE6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(163, 123, 52, 0.35);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(163, 123, 52, 0.65);
+}
+
+/* Film Grain Texture animation */
+@keyframes grain {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-2%, -3%); }
+  30% { transform: translate(3%, 2%); }
+  50% { transform: translate(-1%, 4%); }
+  70% { transform: translate(4%, -1%); }
+  90% { transform: translate(-3%, 2%); }
+}
+
+.animate-grain {
+  animation: grain 8s steps(10) infinite;
+}
+
