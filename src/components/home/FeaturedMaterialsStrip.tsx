@@ -71,9 +71,6 @@ export const FeaturedMaterialsStrip: React.FC<FeaturedMaterialsStripProps> = ({
                 <h3 className="text-base font-serif-luxury font-medium text-[#2C221A] group-hover:text-[#9E7E66] transition-colors">
                   {mat.name}
                 </h3>
-                <p className="text-xs text-[#57534E] line-clamp-1 font-light">
-                  {mat.tagline}
-                </p>
               </div>
 
               {/* Spec Badge */}

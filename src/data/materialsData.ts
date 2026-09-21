@@ -43,8 +43,8 @@ export const MATERIALS_DATA: Material[] = [
     description: 'Woven in Biella, Italy using ethically harvested baby alpaca and long-staple organic cotton. Features a heavy multi-dimensional loop tension that resists pilling while offering unmatched tactile warmth.',
     code: 'FAB-BOC-809',
     origin: 'Biella, Italy',
-    thumbnail: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80',
-    macroImage: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1600&q=90',
+    thumbnail: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80',
+    macroImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=90',
     lightingShifts: {
       warm3000K: 'sepia(20%) saturate(120%) brightness(102%)',
       daylight4000K: 'none',
@@ -76,8 +76,8 @@ export const MATERIALS_DATA: Material[] = [
     description: 'Engineered high-density cotton velvet woven with hydrophobic nanocoating. Provides an ultra-plush nap that shifts tone under architectural spotlighting without crushing or footprinting.',
     code: 'FAB-VLV-412',
     origin: 'Lyon, France',
-    thumbnail: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
-    macroImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=90',
+    thumbnail: 'https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=800&q=80',
+    macroImage: 'https://images.unsplash.com/photo-1604014237800-1c9102c219da?auto=format&fit=crop&w=1600&q=90',
     lightingShifts: {
       warm3000K: 'hue-rotate(-15deg) saturate(130%)',
       daylight4000K: 'none',
@@ -109,8 +109,8 @@ export const MATERIALS_DATA: Material[] = [
     description: 'Sourced from high-altitude Alpine pastures and vegetable-tanned in Tuscany using chestnut bark extracts. Retains natural neck wrinkles, subtle pore structures, and develops a rich burnished amber luster over decades.',
     code: 'LEA-ANL-003',
     origin: 'Tuscany, Italy',
-    thumbnail: 'https://images.unsplash.com/photo-1550581190-9c1c08221570?auto=format&fit=crop&w=800&q=80',
-    macroImage: 'https://images.unsplash.com/photo-1550581190-9c1c08221570?auto=format&fit=crop&w=1600&q=90',
+    thumbnail: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=800&q=80',
+    macroImage: 'https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=1600&q=90',
     lightingShifts: {
       warm3000K: 'saturate(140%) brightness(105%)',
       daylight4000K: 'none',
@@ -143,8 +143,8 @@ export const MATERIALS_DATA: Material[] = [
     description: 'Sustainably harvested from FSC-certified forests in Pennsylvania. Hand-selected heartwood cured in low-heat solar kilns to stabilize moisture content to 7% before hand-planing and oiling.',
     code: 'WOD-WAL-101',
     origin: 'Pennsylvania, USA',
-    thumbnail: 'https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=800&q=80',
-    macroImage: 'https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=1600&q=90',
+    thumbnail: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=800&q=80',
+    macroImage: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1600&q=90',
     lightingShifts: {
       warm3000K: 'contrast(115%) sepia(30%)',
       daylight4000K: 'none',
