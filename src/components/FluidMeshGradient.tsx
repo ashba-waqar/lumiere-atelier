@@ -26,13 +26,13 @@ export const FluidMeshGradient: React.FC<FluidMeshGradientProps> = ({ intensity 
 
     window.addEventListener('resize', handleResize);
 
-    // Liquid Mesh Nodes (Light Ivory Silk Tones)
+    // Liquid Mesh Nodes (Taupe & Terracotta Silk Tones)
     const nodes = [
-      { x: width * 0.2, y: height * 0.3, radius: width * 0.45, color: 'rgba(243, 230, 210, 0.7)', vx: 0.25, vy: 0.18, phase: 0 },
-      { x: width * 0.8, y: height * 0.2, radius: width * 0.5, color: 'rgba(232, 215, 185, 0.6)', vx: -0.2, vy: 0.22, phase: 2 },
-      { x: width * 0.5, y: height * 0.75, radius: width * 0.55, color: 'rgba(248, 243, 235, 0.9)', vx: 0.15, vy: -0.15, phase: 4 },
-      { x: width * 0.1, y: height * 0.8, radius: width * 0.4, color: 'rgba(205, 175, 125, 0.25)', vx: 0.18, vy: -0.25, phase: 1 },
-      { x: width * 0.85, y: height * 0.85, radius: width * 0.45, color: 'rgba(242, 234, 220, 0.8)', vx: -0.12, vy: 0.12, phase: 3 },
+      { x: width * 0.2, y: height * 0.3, radius: width * 0.45, color: 'rgba(230, 212, 189, 0.65)', vx: 0.25, vy: 0.18, phase: 0 },
+      { x: width * 0.8, y: height * 0.2, radius: width * 0.5, color: 'rgba(203, 176, 156, 0.45)', vx: -0.2, vy: 0.22, phase: 2 },
+      { x: width * 0.5, y: height * 0.75, radius: width * 0.55, color: 'rgba(250, 246, 238, 0.95)', vx: 0.15, vy: -0.15, phase: 4 },
+      { x: width * 0.1, y: height * 0.8, radius: width * 0.4, color: 'rgba(158, 126, 102, 0.25)', vx: 0.18, vy: -0.25, phase: 1 },
+      { x: width * 0.85, y: height * 0.85, radius: width * 0.45, color: 'rgba(244, 236, 225, 0.85)', vx: -0.12, vy: 0.12, phase: 3 },
     ];
 
     let t = 0;
@@ -41,7 +41,7 @@ export const FluidMeshGradient: React.FC<FluidMeshGradientProps> = ({ intensity 
       t += 0.008 * intensity;
 
       // Base Light Alabaster Canvas
-      ctx.fillStyle = '#FAF7F2';
+      ctx.fillStyle = '#FAF6EE';
       ctx.fillRect(0, 0, width, height);
 
       // Render flowing nodes with soft radial gradients
@@ -62,7 +62,7 @@ export const FluidMeshGradient: React.FC<FluidMeshGradientProps> = ({ intensity 
 
         grad.addColorStop(0, node.color);
         grad.addColorStop(0.5, node.color.replace(/[\d\.]+\)$/, '0.1)'));
-        grad.addColorStop(1, 'rgba(250, 247, 242, 0)');
+        grad.addColorStop(1, 'rgba(250, 246, 238, 0)');
 
         ctx.fillStyle = grad;
         ctx.beginPath();
@@ -71,7 +71,7 @@ export const FluidMeshGradient: React.FC<FluidMeshGradientProps> = ({ intensity 
       });
 
       // Subtle metallic mesh weave lines
-      ctx.strokeStyle = 'rgba(163, 123, 52, 0.035)';
+      ctx.strokeStyle = 'rgba(158, 126, 102, 0.04)';
       ctx.lineWidth = 1;
 
       const spacing = 120;

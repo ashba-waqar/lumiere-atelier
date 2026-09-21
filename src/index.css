@@ -2,12 +2,13 @@
 
 @layer base {
   :root {
-    --color-charcoal: #FAF7F2;
-    --color-charcoal-light: #F3EFE6;
-    --color-beige: #1C1917;
-    --color-gold: #A37B34;
-    --color-gold-light: #C5A059;
-    --color-gold-dark: #785A1D;
+    --color-charcoal: #FAF6EE;
+    --color-charcoal-light: #F4ECE1;
+    --color-beige: #2C221A;
+    --color-gold: #9E7E66;
+    --color-gold-light: #CBB09C;
+    --color-gold-dark: #7A5E48;
+    --color-sand: #E6D4BD;
   }
 
   body {
@@ -29,46 +30,46 @@
   }
 }
 
-/* Custom Utilities for Light & Classy Modern Aesthetic */
+/* Custom Utilities for New Taupe & Terracotta Sand Aesthetic */
 .glass-panel {
-  background: rgba(255, 255, 255, 0.82);
+  background: rgba(250, 246, 238, 0.88);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(212, 196, 174, 0.5);
-  box-shadow: 0 10px 30px -10px rgba(44, 34, 20, 0.05);
+  border: 1px solid rgba(203, 176, 156, 0.45);
+  box-shadow: 0 10px 30px -10px rgba(44, 34, 26, 0.06);
 }
 
 .glass-panel-gold {
-  background: rgba(253, 248, 237, 0.9);
+  background: rgba(244, 236, 225, 0.92);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(163, 123, 52, 0.3);
-  box-shadow: 0 12px 32px -10px rgba(163, 123, 52, 0.12);
+  border: 1px solid rgba(158, 126, 102, 0.35);
+  box-shadow: 0 12px 32px -10px rgba(158, 126, 102, 0.15);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(250, 246, 238, 0.92);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(220, 208, 192, 0.55);
-  box-shadow: 0 6px 24px -4px rgba(44, 34, 20, 0.04);
+  border: 1px solid rgba(203, 176, 156, 0.5);
+  box-shadow: 0 6px 24px -4px rgba(44, 34, 26, 0.05);
   transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .glass-card:hover {
-  background: rgba(255, 255, 255, 0.98);
-  border-color: rgba(163, 123, 52, 0.45);
-  box-shadow: 0 20px 40px -12px rgba(163, 123, 52, 0.16), 0 0 0 1px rgba(163, 123, 52, 0.12);
+  background: rgba(255, 253, 248, 0.98);
+  border-color: rgba(158, 126, 102, 0.6);
+  box-shadow: 0 20px 40px -12px rgba(158, 126, 102, 0.18), 0 0 0 1px rgba(158, 126, 102, 0.15);
 }
 
 .gold-gradient-text {
-  background: linear-gradient(135deg, #785A1D 0%, #A37B34 50%, #C5A059 100%);
+  background: linear-gradient(135deg, #7A5E48 0%, #9E7E66 50%, #CBB09C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .silver-gradient-text {
-  background: linear-gradient(135deg, #1C1917 0%, #44403C 100%);
+  background: linear-gradient(135deg, #2C221A 0%, #524338 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -80,16 +81,16 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #F3EFE6;
+  background: #F4ECE1;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(163, 123, 52, 0.35);
+  background: rgba(158, 126, 102, 0.4);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(163, 123, 52, 0.65);
+  background: rgba(158, 126, 102, 0.7);
 }
 
 /* Film Grain Texture animation */

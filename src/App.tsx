@@ -48,7 +48,7 @@ export function App() {
   };
 
   return (
-    <div className="relative min-h-screen text-[#1C1917] bg-[#FAF7F2] selection:bg-[#C5A059]/25 selection:text-[#1C1917] font-sans">
+    <div className="relative min-h-screen text-[#2C221A] bg-[#FAF6EE] selection:bg-[#CBB09C]/35 selection:text-[#2C221A] font-sans">
       
       {/* Background Shaders & Textures */}
       <FluidMeshGradient intensity={1} />
@@ -112,8 +112,8 @@ export function App() {
 
       {/* Toast Notification */}
       {toastMessage && (
-        <div className="fixed bottom-6 right-6 z-50 glass-panel-gold px-4 py-3 rounded-2xl border border-[#A37B34]/30 text-xs text-[#1C1917] shadow-2xl flex items-center gap-2.5 animate-bounce font-medium">
-          <CheckCircle2 className="w-4 h-4 text-[#A37B34]" />
+        <div className="fixed bottom-6 right-6 z-50 glass-panel-gold px-4 py-3 rounded-2xl border border-[#9E7E66]/40 text-xs text-[#2C221A] shadow-2xl flex items-center gap-2.5 animate-bounce font-medium">
+          <CheckCircle2 className="w-4 h-4 text-[#9E7E66]" />
           <span>{toastMessage}</span>
         </div>
       )}
