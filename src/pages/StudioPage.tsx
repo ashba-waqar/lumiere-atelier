@@ -39,12 +39,6 @@ export const StudioPage: React.FC<StudioPageProps> = ({ onOpenConsultation }) =>
       <div className="max-w-7xl mx-auto px-6 sm:px-12 w-full mb-6">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 border-b border-[#E5DDCB] pb-6">
           <div>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full glass-panel-gold border border-[#A37B34]/30 shadow-sm mb-2">
-              <Sparkles className="w-3.5 h-3.5 text-[#A37B34]" />
-              <span className="text-[10px] font-mono uppercase tracking-[0.2em] text-[#A37B34] font-semibold">
-                360° 3D STUDIO CONFIGURATOR
-              </span>
-            </div>
             <h1 className="text-3xl sm:text-5xl font-serif-luxury font-light text-[#1C1917]">
               Real-Time Architectural Studio
             </h1>

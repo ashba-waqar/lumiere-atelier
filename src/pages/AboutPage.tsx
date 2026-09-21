@@ -18,13 +18,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({
       
       {/* Hero Banner */}
       <div className="max-w-7xl mx-auto px-6 sm:px-12 mb-20 text-center space-y-6">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel-gold border border-[#A37B34]/30 shadow-sm">
-          <Sparkles className="w-3.5 h-3.5 text-[#A37B34]" />
-          <span className="text-xs uppercase tracking-[0.2em] text-[#A37B34] font-semibold">
-            HERITAGE & CRAFTSMANSHIP PHILOSOPHY
-          </span>
-        </div>
-
         <h1 className="text-4xl sm:text-7xl font-serif-luxury font-extralight text-[#1C1917] max-w-4xl mx-auto leading-tight">
           Where Heritage Mastery Meets{' '}
           <span className="gold-gradient-text font-normal italic">Organic Modernism.</span>
@@ -50,28 +43,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({
             <Box className="w-4 h-4 text-[#A37B34]" />
             <span>Launch 3D Studio Configurator</span>
           </button>
-        </div>
-      </div>
-
-      {/* Kinetic Stats Ticker */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-12 mb-24">
-        <div className="glass-panel p-8 rounded-3xl border border-[#D4C4AE]/60 bg-white/90 grid grid-cols-2 md:grid-cols-4 gap-8 text-center shadow-sm">
-          <div>
-            <span className="block text-4xl sm:text-5xl font-serif-luxury font-bold gold-gradient-text">1894</span>
-            <span className="text-xs uppercase tracking-widest text-[#57534E] font-medium mt-1 block">Atelier Foundation</span>
-          </div>
-          <div>
-            <span className="block text-4xl sm:text-5xl font-serif-luxury font-bold text-[#1C1917]">480+</span>
-            <span className="text-xs uppercase tracking-widest text-[#57534E] font-medium mt-1 block">Crafting Hours / Piece</span>
-          </div>
-          <div>
-            <span className="block text-4xl sm:text-5xl font-serif-luxury font-bold text-[#1C1917]">100%</span>
-            <span className="text-xs uppercase tracking-widest text-[#57534E] font-medium mt-1 block">FSC® Sustainable Wood</span>
-          </div>
-          <div>
-            <span className="block text-4xl sm:text-5xl font-serif-luxury font-bold gold-gradient-text">38</span>
-            <span className="text-xs uppercase tracking-widest text-[#57534E] font-medium mt-1 block">Master Guild Artisans</span>
-          </div>
         </div>
       </div>
 
