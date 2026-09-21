@@ -48,9 +48,6 @@ export const BrandStory: React.FC = () => {
       
       {/* Header */}
       <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
-        <span className="text-xs font-mono uppercase tracking-[0.3em] text-[#9E7E66] font-semibold">
-          02 / BRAND STORY & CRAFTSMANSHIP
-        </span>
         <h2 className="text-3xl sm:text-4xl font-serif-luxury font-light text-[#2C221A]">
           The Art of Uncompromising Craftsmanship
         </h2>

@@ -14,14 +14,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMaterials, onExploreCollect
       {/* Home Interior Background Slideshow */}
       <HeroBackgroundSlideshow />
 
-      {/* Top Luxury Pill Badge */}
-      <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-panel-gold mb-8 shadow-lg bg-black/40 border border-[#9E7E66]/60 backdrop-blur-md z-10">
-        <Sparkles className="w-3.5 h-3.5 text-[#E6D4BD] animate-spin-slow" />
-        <span className="text-xs uppercase tracking-[0.2em] text-[#E6D4BD] font-semibold">
-          2026 Haute Atelier Collection
-        </span>
-      </div>
-
       {/* Main Kinetic Typography Headline */}
       <div className="max-w-5xl text-center space-y-6 z-10">
         <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif-luxury font-extralight tracking-tight leading-[1.08] text-white drop-shadow-lg">
@@ -52,49 +44,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMaterials, onExploreCollect
         >
           View 2026 Bento Showcase
         </button>
-      </div>
-
-      {/* Craftsmanship Metrics Ticker */}
-      <div className="w-full max-w-6xl mt-20 pt-10 border-t border-white/20 grid grid-cols-2 md:grid-cols-4 gap-6 z-10">
-        <div className="bg-[#FAF6EE]/95 border border-[#CBB09C]/60 backdrop-blur-xl p-5 rounded-2xl flex items-center gap-4 shadow-xl">
-          <div className="p-3 rounded-xl bg-[#9E7E66] text-white shadow-md">
-            <Clock className="w-5 h-5" />
-          </div>
-          <div>
-            <span className="block text-2xl font-serif-luxury font-bold text-[#2C221A]">480+</span>
-            <span className="text-[11px] uppercase tracking-widest text-[#7A5E48] font-bold">Hours per Piece</span>
-          </div>
-        </div>
-
-        <div className="bg-[#FAF6EE]/95 border border-[#CBB09C]/60 backdrop-blur-xl p-5 rounded-2xl flex items-center gap-4 shadow-xl">
-          <div className="p-3 rounded-xl bg-[#9E7E66] text-white shadow-md">
-            <ShieldCheck className="w-5 h-5" />
-          </div>
-          <div>
-            <span className="block text-2xl font-serif-luxury font-bold text-[#2C221A]">100%</span>
-            <span className="text-[11px] uppercase tracking-widest text-[#7A5E48] font-bold">FSC Certified Timber</span>
-          </div>
-        </div>
-
-        <div className="bg-[#FAF6EE]/95 border border-[#CBB09C]/60 backdrop-blur-xl p-5 rounded-2xl flex items-center gap-4 shadow-xl">
-          <div className="p-3 rounded-xl bg-[#9E7E66] text-white shadow-md">
-            <Award className="w-5 h-5" />
-          </div>
-          <div>
-            <span className="block text-2xl font-serif-luxury font-bold text-[#2C221A]">110k</span>
-            <span className="text-[11px] uppercase tracking-widest text-[#7A5E48] font-bold">Martindale Rubs</span>
-          </div>
-        </div>
-
-        <div className="bg-[#FAF6EE]/95 border border-[#CBB09C]/60 backdrop-blur-xl p-5 rounded-2xl flex items-center gap-4 shadow-xl">
-          <div className="p-3 rounded-xl bg-[#9E7E66] text-white shadow-md">
-            <Sparkles className="w-5 h-5" />
-          </div>
-          <div>
-            <span className="block text-2xl font-serif-luxury font-bold text-[#2C221A]">9H</span>
-            <span className="text-[11px] uppercase tracking-widest text-[#7A5E48] font-bold">PVD Mohs Hardness</span>
-          </div>
-        </div>
       </div>
 
     </section>

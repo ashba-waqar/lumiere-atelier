@@ -20,9 +20,6 @@ export const FeaturedMaterialsStrip: React.FC<FeaturedMaterialsStripProps> = ({
         {/* Header */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-12">
           <div>
-            <span className="text-xs font-mono uppercase tracking-[0.3em] text-[#9E7E66] font-semibold block mb-1">
-              03 / SWATCH ATELIER PREVIEW
-            </span>
             <h2 className="text-2xl sm:text-4xl font-serif-luxury font-light text-[#2C221A]">
               Featured Rare Materials & Finishes
             </h2>

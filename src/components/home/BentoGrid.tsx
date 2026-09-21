@@ -55,9 +55,6 @@ export const BentoGrid: React.FC<BentoGridProps> = ({ onSelectCategory }) => {
       {/* Section Header */}
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
         <div>
-          <span className="text-xs font-mono uppercase tracking-[0.3em] text-[#9E7E66] block mb-2 font-semibold">
-            01 / CATEGORY SHOWCASE
-          </span>
           <h2 className="text-3xl sm:text-4xl font-serif-luxury font-light text-[#2C221A]">
             Sculpted Furniture Architecture
           </h2>
