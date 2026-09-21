@@ -6,7 +6,7 @@ import { LightingEnvironmentControl } from '../components/studio/LightingEnviron
 import { StudioSpecDrawer } from '../components/studio/StudioSpecDrawer';
 import { Footer } from '../components/Footer';
 import type { ModelPartMaterials } from '../components/studio/3dModels';
-import { Sparkles, Compass } from 'lucide-react';
+import { Compass } from 'lucide-react';
 
 interface StudioPageProps {
   onOpenConsultation: () => void;

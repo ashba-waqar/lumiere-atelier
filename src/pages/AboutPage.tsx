@@ -2,7 +2,7 @@ import React from 'react';
 import { HeritageTimeline } from '../components/about/HeritageTimeline';
 import { ArtisanProfiles } from '../components/about/ArtisanProfiles';
 import { Footer } from '../components/Footer';
-import { Sparkles, PhoneCall, Box } from 'lucide-react';
+import { PhoneCall, Box } from 'lucide-react';
 
 interface AboutPageProps {
   onOpenConsultation: () => void;

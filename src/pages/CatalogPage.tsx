@@ -4,7 +4,7 @@ import { CATALOG_PRODUCTS } from '../data/catalogData';
 import { ProductCard } from '../components/catalog/ProductCard';
 import { ProductQuickInspectModal } from '../components/catalog/ProductQuickInspectModal';
 import { Footer } from '../components/Footer';
-import { Search, Sparkles } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 interface CatalogPageProps {
   onLaunch3dStudio: (product: ProductItem) => void;

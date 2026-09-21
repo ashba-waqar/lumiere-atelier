@@ -5,7 +5,7 @@ import { MaterialCard } from '../components/materials/MaterialCard';
 import { MacroTextureModal } from '../components/materials/MacroTextureModal';
 import { MaterialComparisonDrawer } from '../components/materials/MaterialComparisonDrawer';
 import { Footer } from '../components/Footer';
-import { Search, LayoutGrid, Table, Sparkles, Check, Mail } from 'lucide-react';
+import { Search, LayoutGrid, Table, Check, Mail } from 'lucide-react';
 
 interface MaterialLibraryPageProps {
   savedSwatches: Material[];
