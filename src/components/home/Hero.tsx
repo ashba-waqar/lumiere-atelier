@@ -1,5 +1,4 @@
-import React from 'react';
-import { ArrowRight, Sparkles, ShieldCheck, Clock, Award } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { HeroBackgroundSlideshow } from './HeroBackgroundSlideshow';
 
 interface HeroProps {
