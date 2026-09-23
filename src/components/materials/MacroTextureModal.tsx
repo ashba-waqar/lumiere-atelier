@@ -254,7 +254,7 @@ export const MacroTextureModal: React.FC<MacroTextureModalProps> = ({
             {/* Care Instructions */}
             <div className="space-y-2">
               <h4 className="text-xs font-semibold uppercase tracking-wider text-[#1C1917]">
-                Atelier Care Protocol
+                Care Protocol
               </h4>
               <ul className="space-y-1.5 text-xs text-[#57534E] font-light">
                 {material.careInstructions.map((c, idx) => (

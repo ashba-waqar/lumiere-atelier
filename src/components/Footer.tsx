@@ -14,10 +14,10 @@ export const Footer: React.FC = () => {
             </div>
             <div>
               <span className="font-serif-luxury text-lg font-bold tracking-widest text-[#2C221A] block leading-tight">
-                LUMIÈRE ATELIER
+                ALURIA LIVINGS
               </span>
               <span className="text-[9px] uppercase tracking-[0.25em] text-[#9E7E66] font-mono block">
-                Haute Furniture Atelier
+                Luxury Home Living
               </span>
             </div>
           </div>
@@ -83,7 +83,7 @@ export const Footer: React.FC = () => {
 
         {/* Row 4: Minimal Legal & Copyright */}
         <div className="flex flex-col sm:flex-row justify-between items-center text-[11px] text-[#78716C] gap-4">
-          <p>© 2026 LUMIÈRE ATELIER. All Rights Reserved.</p>
+          <p>© 2026 ALURIA LIVINGS. All Rights Reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-[#9E7E66] transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-[#9E7E66] transition-colors">Material Certifications</a>

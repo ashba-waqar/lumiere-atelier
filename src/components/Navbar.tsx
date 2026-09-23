@@ -48,10 +48,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
             <div>
               <span className="font-serif-luxury font-semibold text-base sm:text-lg tracking-widest text-[#2C221A] block leading-none group-hover:text-[#9E7E66] transition-colors">
-                LUMIÈRE ATELIER
+                ALURIA LIVINGS
               </span>
               <span className="text-[8px] sm:text-[9px] uppercase tracking-[0.25em] text-[#9E7E66] font-medium block mt-0.5 sm:mt-1">
-                HAUTE ATELIER
+                LUXURY LIVING
               </span>
             </div>
           </button>

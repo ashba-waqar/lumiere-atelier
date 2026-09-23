@@ -33,7 +33,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMaterials, onExploreCollect
           onClick={onExploreMaterials}
           className="w-full sm:w-auto px-8 py-4 rounded-full bg-gradient-to-r from-[#7A5E48] via-[#9E7E66] to-[#CBB09C] text-white text-xs font-bold uppercase tracking-[0.18em] shadow-2xl hover:shadow-[#9E7E66]/40 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group"
         >
-          <span>Explore Material Atelier</span>
+          <span>Explore Materials</span>
           <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform text-white" />
         </button>
 

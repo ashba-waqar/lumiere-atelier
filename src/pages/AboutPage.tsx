@@ -24,7 +24,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({
         </h1>
 
         <p className="max-w-2xl mx-auto text-sm sm:text-base text-[#44403C] font-light leading-relaxed">
-          Founded in Florence over a century ago, LUMIÈRE ATELIER creates heirloom furniture pieces that unite ethically harvested rare timbers, Italian upholstery, and precision PVD metallurgy.
+          Founded in Florence over a century ago, ALURIA LIVINGS creates heirloom furniture pieces that unite ethically harvested rare timbers, Italian upholstery, and precision PVD metallurgy.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4 pt-4">

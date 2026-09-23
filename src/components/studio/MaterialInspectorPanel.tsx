@@ -36,7 +36,7 @@ export const MaterialInspectorPanel: React.FC<MaterialInspectorPanelProps> = ({
         <div className="flex items-center gap-2">
           <Layers className="w-4 h-4 text-[#A37B34]" />
           <h3 className="text-base font-serif-luxury font-bold text-[#1C1917]">
-            Real-Time Material Atelier
+            Real-Time Material Studio
           </h3>
         </div>
         <span className="text-[10px] font-mono uppercase tracking-widest text-[#A37B34] bg-[#A37B34]/15 px-2.5 py-1 rounded-full border border-[#A37B34]/30 font-semibold">

@@ -25,7 +25,7 @@ export const ConsultationModal: React.FC<ConsultationModalProps> = ({ isOpen, on
         <div>
           <span className="text-[10px] font-mono uppercase tracking-widest text-[#A37B34] font-semibold">PRIVATE CONCIERGE</span>
           <h3 className="text-2xl font-serif-luxury font-bold text-[#1C1917] mt-1">
-            Book Private Atelier Consultation
+            Book Private Consultation
           </h3>
           <p className="text-xs text-[#57534E] mt-1 font-light leading-relaxed">
             Schedule a 1-on-1 virtual or in-person consultation with our senior furniture architect at our Paris, Milan, or NYC salons.

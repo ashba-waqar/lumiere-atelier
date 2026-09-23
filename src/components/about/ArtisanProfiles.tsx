@@ -13,7 +13,7 @@ export const ArtisanProfiles: React.FC = () => {
     {
       name: 'Elena Vane',
       role: 'Director of Textile Upholstery',
-      experience: '28 Years High Atelier Experience',
+      experience: '28 Years Master Craft Experience',
       specialty: 'Double-saddle hand stitching & alpaca bouclé tensioning.',
       quote: 'Every seam must breathe. A true luxury chair wraps the body in weightless tactile warmth.',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80',
@@ -42,7 +42,7 @@ export const ArtisanProfiles: React.FC = () => {
           </h2>
         </div>
         <p className="max-w-md text-xs sm:text-sm text-[#57534E] font-light leading-relaxed">
-          Over 38 master craftsmen dedicate their lives in our Tuscan and Biella ateliers to sculpting every individual commission.
+          Over 38 master craftsmen dedicate their lives in our Tuscan and Biella workshops to sculpting every individual commission.
         </p>
       </div>
 

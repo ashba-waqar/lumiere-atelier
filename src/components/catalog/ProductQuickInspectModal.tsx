@@ -113,7 +113,7 @@ export const ProductQuickInspectModal: React.FC<ProductQuickInspectModalProps> =
                   <span className="text-[#1C1917] font-medium">{product.primaryMaterial}</span>
                 </div>
                 <div className="flex justify-between pt-0.5">
-                  <span className="text-[#57534E]">Atelier Guarantee:</span>
+                  <span className="text-[#57534E]">Quality Guarantee:</span>
                   <span className="text-[#A37B34] font-medium">{product.warranty}</span>
                 </div>
               </div>

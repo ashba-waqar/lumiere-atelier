@@ -5,7 +5,7 @@ export const HeritageTimeline: React.FC = () => {
   const milestones = [
     {
       year: '1894',
-      title: 'Florentine Tannery & Wood Atelier Foundation',
+      title: 'Florentine Tannery & Wood Workshop Foundation',
       location: 'Florence, Italy',
       description: 'Founded by master leather artisan Giovanni Lumière as a bespoke saddle and timber chest guild supplying European nobility.',
       tag: 'Heritage Guild'
@@ -26,10 +26,10 @@ export const HeritageTimeline: React.FC = () => {
     },
     {
       year: '2026',
-      title: 'Digital Atelier & 360° 3D Studio Configurator',
+      title: 'Digital Studio & 360° 3D Configurator',
       location: 'Global Salons',
       description: 'Merged traditional centuries-old hand craftsmanship with real-time WebGL PBR 3D material customization for architects worldwide.',
-      tag: 'Modern Haute Atelier'
+      tag: 'Modern Luxury Living'
     }
   ];
 
@@ -45,7 +45,7 @@ export const HeritageTimeline: React.FC = () => {
           Chronicles of Heritage Craftsmanship
         </h2>
         <p className="text-xs sm:text-sm text-[#57534E] font-light leading-relaxed">
-          From a 19th-century Florentine saddlery to a global haute furniture atelier, our dedication to organic form remains unbroken.
+          From a 19th-century Florentine saddlery to a global luxury furniture house, our dedication to organic form remains unbroken.
         </p>
       </div>
 

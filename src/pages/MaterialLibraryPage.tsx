@@ -305,7 +305,7 @@ export const MaterialLibraryPage: React.FC<MaterialLibraryPageProps> = ({
             </button>
 
             <div>
-              <span className="text-[10px] font-mono uppercase tracking-widest text-[#A37B34] font-semibold">ATELIER SAMPLE BOX</span>
+              <span className="text-[10px] font-mono uppercase tracking-widest text-[#A37B34] font-semibold">MATERIAL SAMPLE BOX</span>
               <h3 className="text-2xl font-serif-luxury font-bold text-[#1C1917] mt-1">
                 Order Physical Swatch Presentation Box
               </h3>

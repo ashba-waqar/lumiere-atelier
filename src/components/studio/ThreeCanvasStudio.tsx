@@ -127,7 +127,7 @@ export const ThreeCanvasStudio: React.FC<ThreeCanvasStudioProps> = ({
         rendererRef.current.render(scene, camera);
         const dataUrl = rendererRef.current.domElement.toDataURL('image/png');
         const link = document.createElement('a');
-        link.download = `LUMIERE_ATELIER_3D_Studio_${modelType}.png`;
+        link.download = `ALURIA_LIVINGS_3D_Studio_${modelType}.png`;
         link.href = dataUrl;
         link.click();
       });

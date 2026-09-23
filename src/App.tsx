@@ -36,7 +36,7 @@ export function App() {
       showToast(`Removed ${material.name} from saved swatches.`);
     } else {
       setSavedSwatches([...savedSwatches, material]);
-      showToast(`Saved ${material.name} to your atelier swatches.`);
+      showToast(`Saved ${material.name} to your saved swatches.`);
     }
   };
 

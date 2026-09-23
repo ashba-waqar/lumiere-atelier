@@ -51,21 +51,14 @@ export const FeaturedMaterialsStrip: React.FC<FeaturedMaterialsStripProps> = ({
                 />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors" />
 
-                <span className="absolute top-3 left-3 text-[10px] font-mono tracking-wider bg-white/90 backdrop-blur-md px-2.5 py-1 rounded-full text-[#2C221A] border border-[#CBB09C]/60 font-medium shadow-sm">
-                  {mat.code}
-                </span>
-
                 <div className="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-[#9E7E66] opacity-0 group-hover:opacity-100 transition-opacity shadow-sm">
                   <Eye className="w-4 h-4" />
                 </div>
               </div>
 
               {/* Info */}
-              <div className="space-y-1">
-                <span className="text-[10px] uppercase tracking-wider text-[#9E7E66] block font-mono font-semibold">
-                  {mat.category}
-                </span>
-                <h3 className="text-base font-serif-luxury font-medium text-[#2C221A] group-hover:text-[#9E7E66] transition-colors">
+              <div>
+                <h3 className="text-lg font-serif-luxury font-medium text-[#2C221A] group-hover:text-[#9E7E66] transition-colors">
                   {mat.name}
                 </h3>
               </div>

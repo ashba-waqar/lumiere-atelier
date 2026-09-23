@@ -89,7 +89,7 @@ export const StudioSpecDrawer: React.FC<StudioSpecDrawerProps> = ({
       <div className="flex flex-wrap items-center gap-3 text-xs text-[#57534E] pt-1">
         <div className="flex items-center gap-1.5 bg-[#F3EFE6] px-3 py-1 rounded-full border border-[#D4C4AE]/50 shadow-xs font-medium">
           <Clock className="w-3.5 h-3.5 text-[#A37B34]" />
-          <span>{details.hours} Atelier Hours</span>
+          <span>{details.hours} Studio Hours</span>
         </div>
 
         <div className="flex items-center gap-1.5 bg-[#F3EFE6] px-3 py-1 rounded-full border border-[#D4C4AE]/50 shadow-xs font-medium">
