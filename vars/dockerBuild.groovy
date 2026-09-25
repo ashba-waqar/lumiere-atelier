@@ -1,4 +1,3 @@
-def call() {
-    echo "Docker build start"
+dnf call() {
     sh 'docker build -t my-app .'
-}
+}    
