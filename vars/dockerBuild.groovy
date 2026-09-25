@@ -1,3 +1,3 @@
 def call() {
-    sh 'docker build -t my-app .'
+    sh 'docker build -t ${imageName} .'
 }    
