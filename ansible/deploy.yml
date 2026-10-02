@@ -1,0 +1,16 @@
+- hosts: all
+  tasks:
+    - name: Pull latest Docker image
+      docker_image:
+        name: "ashbawaqar21/frontend-app"
+        tag: "{{ image_tag }}"
+        source: pull
+
+    - name: Restart container with updated image
+      docker_container:
+        name: web-frontend
+        image: "ashbawaqar21/frontend-app:{{ image_tag }}"
+        state: started
+        restart_policy: always
+        ports:
+          - "{{ app_port }}:80"
